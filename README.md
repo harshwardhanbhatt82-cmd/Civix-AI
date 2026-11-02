@@ -62,6 +62,11 @@ pip install -r requirements.txt
 ```bash
 python -m streamlit run app.py
 ```
+## 🌐 Live Demo
+
+Try Civix AI here:
+
+👉 [Launch Civix AI](https://harshwardhanbhatt82-cmd-civix-ai-app-5fvt9e.streamlit.app/)
 
 ## 🎯 Project Objective
 

@@ -1,0 +1,27 @@
+# Private data and database
+data/
+reports/
+
+# Backup files
+app_backup.py
+
+# Python cache and virtual environment
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Unnecessary model weights
+yolov8n.pt
+
+# Keep only the trained model required by the app
+runs/*
+!runs/road_damage_v1/
+runs/road_damage_v1/*
+!runs/road_damage_v1/weights/
+runs/road_damage_v1/weights/*
+!runs/road_damage_v1/weights/best.pt
